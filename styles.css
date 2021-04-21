@@ -1,0 +1,59 @@
+:root{
+    --primary-color: rgb(240, 229, 85);
+    
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body{
+    padding: 0rem 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#output-div {
+    border: 1px solid black;
+    height: 20vh;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+
+}
+
+#btn-translate{
+    padding: 1rem 1rem;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 1rem 1rem;
+    font-weight: 400;
+}
+
+#txt-input{
+    border: 1px solid black;
+    height: 20vh;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+#text-sentence{
+    font-size: larger;
+}
+
+.about{
+    text-align: center;
+    /* color: var(--primary-color); */
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    border-bottom-right-radius: 2rem;
+    
+
+}
+
+footer{
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 2rem;
+}
