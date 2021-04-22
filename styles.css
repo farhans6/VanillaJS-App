@@ -22,7 +22,7 @@ body{
 
 #btn-translate{
     padding: 1rem 2rem;
-    background-color: var(--primary-color);
+    background-color: rgb(240, 229, 85);
     color: black;
     border-radius: 1rem 1rem;
     font-weight: 400;
@@ -44,7 +44,7 @@ body{
 .about{
     text-align: center;
     /* color: var(--primary-color); */
-    background-color: var(--primary-color);
+    background-color: rgb(240, 229, 85);
     padding: 2rem 2rem;
     border-bottom-right-radius: 2rem;
     
@@ -54,6 +54,6 @@ body{
 footer{
     text-align: center;
     padding: 1.5rem 2rem;
-    background-color: var(--primary-color);
+    background-color: rgb(240, 229, 85);
     border-bottom-left-radius: 2rem;
 }
